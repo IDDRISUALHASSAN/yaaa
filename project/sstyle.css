@@ -1,0 +1,29 @@
+body {
+  background-color: navajowhite;
+}
+
+#upload-button{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#uploadIcons{
+    font-size: 24px;
+    cursor: pointer;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+#videoGallery{
+  margin-bottom: 10px;
+  padding: 20px;
+  border: 1px solid #dddd;
+  border-radius: 10px;
+}
+#videoGallery video{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Video Upload</title>
+	<link rel="stylesheet" href="css/fontawesome.min.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="sstyle.css">
+</head>
+<body>
+	<form action="back.php" method="post" enctype="multipart/form-data" id="myform">
+		
+		<label for="myFiles" class="upload-button" id="upload-button">
+			<span class="upload-icon" onclick="document.getElementById('videoInput').click()">
+			  <i class="fa-solid fa-video" id="uploadIcons"></i></span>
+			<input type="file" id="videoInput" name="video" accept="video/*" required="required" hidden>
+			<input type="submit" name="submit" value="Upload" class="submit" id="uploadButton">
+		  </label>
+		  <div id="videoGallery">
+			<!-- Video thumbnails will be displayed here -->
+		</div>
+	</form>
+
+	  
+	  
+	
+  <script src="sscript.js"></script>
+  <link rel="style" type="text/css" href="style.css">
+</body>
+</html>
